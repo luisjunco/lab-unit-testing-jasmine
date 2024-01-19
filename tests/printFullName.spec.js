@@ -7,7 +7,7 @@ describe("Iteration 4", () => {
             expect(printFullName).toBeDefined();
         });
 
-        it("should take two arguments", () => {
+        it("should take one argument", () => {
             expect(printFullName.length).toBe(1);
         });
 
